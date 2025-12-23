@@ -1,0 +1,4 @@
+{application, webapp,
+ [{vsn, "0.1.0"},
+  {modules, [webapp_app, webapp_sup]},
+  {applications, [kernel, stdlib, cowboy]}]}.
